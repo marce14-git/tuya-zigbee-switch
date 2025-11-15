@@ -214,15 +214,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -285,30 +277,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -390,45 +365,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -529,60 +478,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint7 = device.getEndpoint(7);
             await reporting.onOff(endpoint7, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint7.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint8 = device.getEndpoint(8);
             await reporting.onOff(endpoint8, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint8.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -664,45 +578,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -748,15 +636,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -821,30 +701,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -928,45 +791,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1069,60 +906,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint7 = device.getEndpoint(7);
             await reporting.onOff(endpoint7, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint7.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint8 = device.getEndpoint(8);
             await reporting.onOff(endpoint8, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint8.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1167,15 +969,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1239,30 +1033,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1344,45 +1121,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1428,7 +1179,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+
             await endpoint2.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1482,7 +1233,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+
             await endpoint2.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1557,7 +1308,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint4 = device.getEndpoint(4);
+            await reporting.onOff(endpoint4, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint3.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1566,13 +1323,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint4 = device.getEndpoint(4);
-            await reporting.onOff(endpoint4, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1647,7 +1397,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint4 = device.getEndpoint(4);
+            await reporting.onOff(endpoint4, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint3.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1656,13 +1412,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint4 = device.getEndpoint(4);
-            await reporting.onOff(endpoint4, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1738,7 +1487,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint4 = device.getEndpoint(4);
+            await reporting.onOff(endpoint4, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint3.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1747,13 +1502,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint4 = device.getEndpoint(4);
-            await reporting.onOff(endpoint4, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -1843,45 +1591,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -1945,30 +1667,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2051,45 +1756,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2133,15 +1812,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2204,30 +1875,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2271,15 +1925,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2362,45 +2008,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2501,60 +2121,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint7 = device.getEndpoint(7);
             await reporting.onOff(endpoint7, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint7.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint8 = device.getEndpoint(8);
             await reporting.onOff(endpoint8, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint8.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2655,60 +2240,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint7 = device.getEndpoint(7);
             await reporting.onOff(endpoint7, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint7.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint8 = device.getEndpoint(8);
             await reporting.onOff(endpoint8, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint8.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -2754,7 +2304,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+
             await endpoint2.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -2829,7 +2379,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint4 = device.getEndpoint(4);
+            await reporting.onOff(endpoint4, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint3.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -2838,13 +2394,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint4 = device.getEndpoint(4);
-            await reporting.onOff(endpoint4, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -2940,7 +2489,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint5 = device.getEndpoint(5);
+            await reporting.onOff(endpoint5, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+            const endpoint6 = device.getEndpoint(6);
+            await reporting.onOff(endpoint6, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -2949,13 +2510,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint5 = device.getEndpoint(5);
-            await reporting.onOff(endpoint5, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint5.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -2964,13 +2518,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint6 = device.getEndpoint(6);
-            await reporting.onOff(endpoint6, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint6.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -3086,7 +2633,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint6 = device.getEndpoint(6);
+            await reporting.onOff(endpoint6, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+            const endpoint7 = device.getEndpoint(7);
+            await reporting.onOff(endpoint7, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+            const endpoint8 = device.getEndpoint(8);
+            await reporting.onOff(endpoint8, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint5.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -3095,13 +2660,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint6 = device.getEndpoint(6);
-            await reporting.onOff(endpoint6, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint6.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -3110,13 +2668,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint7 = device.getEndpoint(7);
-            await reporting.onOff(endpoint7, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint7.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -3125,13 +2676,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint8 = device.getEndpoint(8);
-            await reporting.onOff(endpoint8, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint8.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -3202,30 +2746,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3306,45 +2833,19 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint5 = device.getEndpoint(5);
             await reporting.onOff(endpoint5, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3407,30 +2908,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3474,15 +2958,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3526,15 +3002,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3578,15 +3046,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3630,15 +3090,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3701,30 +3153,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3825,60 +3260,25 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint5.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint6.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint7 = device.getEndpoint(7);
             await reporting.onOff(endpoint7, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint7.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint8 = device.getEndpoint(8);
             await reporting.onOff(endpoint8, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint8.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3922,15 +3322,7 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint2.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -3995,30 +3387,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint3.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
             const endpoint4 = device.getEndpoint(4);
             await reporting.onOff(endpoint4, {
                 min: 0,
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
-            await endpoint4.configureReporting("genOnOff", [
-                {
-                    attribute: {ID: 0xff02, type: 0x10}, // Boolean
-                    minimumReportInterval: 0,
-                    maximumReportInterval: constants.repInterval.MAX,
-                    reportableChange: 1,
-                },
-            ]);
+
         },
         ota: ota.zigbeeOTA,
     },
@@ -4085,7 +3460,13 @@ const definitions = [
                 max: constants.repInterval.MAX,
                 change: 1,
             });
-            // indicator:
+            const endpoint4 = device.getEndpoint(4);
+            await reporting.onOff(endpoint4, {
+                min: 0,
+                max: constants.repInterval.MAX,
+                change: 1,
+            });
+
             await endpoint3.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
@@ -4094,13 +3475,6 @@ const definitions = [
                     reportableChange: 1,
                 },
             ]);
-            const endpoint4 = device.getEndpoint(4);
-            await reporting.onOff(endpoint4, {
-                min: 0,
-                max: constants.repInterval.MAX,
-                change: 1,
-            });
-            // indicator:
             await endpoint4.configureReporting("genOnOff", [
                 {
                     attribute: {ID: 0xff02, type: 0x10}, // Boolean
