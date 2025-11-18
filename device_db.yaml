@@ -15,9 +15,9 @@ TUYA_1_TS0001:
   old_zb_models: null
   tuya_manufacturer_id: 4417
   tuya_image_type: 54179
-  firmware_image_type: 43525
+  firmware_image_type: 43537
   build: yes
-  status: Supported
+  status: in_progress
   info: null
   github_issue: https://github.com/romasku/tuya-zigbee-switch/issues/
   store: null
