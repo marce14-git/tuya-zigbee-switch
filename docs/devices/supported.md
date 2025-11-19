@@ -16,4 +16,5 @@ Also read:
 | Z2M device name | Vendor name | Zigbee Manufacturer | Type | Status | Issue |
 | --- | --- | --- | --- | --- | --- |
 | [TS0001_switch_module](https://www.zigbee2mqtt.io/devices/TS0001_switch_module.html) | Tuya 1-gang  | _TZ3000_hyziup76 | router | in_progress |   [link](https://github.com/romasku/tuya-zigbee-switch/issues/)  | 
+| [TS0002_switch_module](https://www.zigbee2mqtt.io/devices/TS0002_switch_module.html) | Tuya 2-gang  | _TZ3000_wxtmgjbd | router | in_progress |   [link](https://github.com/romasku/tuya-zigbee-switch/issues/)  | 
 

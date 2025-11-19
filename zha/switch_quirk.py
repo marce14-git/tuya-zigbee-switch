@@ -125,8 +125,10 @@ class OnOffWithIndicatorCluster(CustomCluster, OnOff):
         )
 
 CONFIGS = [
-    "hyziup76;TS0001-custom;BA0u;LC0;SB4u;RC2;",
-    "Tuya-TS0001-custom;TS0001-custom;BA0u;LC0;SB4u;RC2;",
+    "hyziup76;TS0001-EMOS;BA0u;LC0;SB4u;RC2;",
+    "Tuya-TS0001-custom;TS0001-EMOS;BA0u;LC0;SB4u;RC2;",
+    "wxtmgjbd;TS0002-EMOS;BA0u;LC0;SB4u;RC2;SB5u;RC4;",
+    "Tuya-TS0002-custom;TS0002-EMOS;BA0u;LC0;SB4u;RC2;SB5u;RC4;",
 ]
 
 for config in CONFIGS:
