@@ -34,7 +34,7 @@ EMOS_TS0002:
   stock_converter_model: TS0002_switch_module
   override_z2m_device: null
   zb_module: null
-  config_str: wxtmgjbd;TS0002-EMOS;BA0u;LC0;SB4u;RC2;SB5u;RC4;
+  config_str: wxtmgjbd;TS0002-EMOS;BA0u;LC0;SB4u;RC2;SB5u;RC3;
   alt_config_str: null
   old_manufacturer_names:
   - Tuya-TS0002-custom
