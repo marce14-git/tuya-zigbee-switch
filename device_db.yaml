@@ -1,4 +1,4 @@
-TUYA_6_TS0001: 
+EMOS_TS0001: 
   human_name: Tuya 1-gang
   neutral: required
   device_type: router
@@ -8,7 +8,7 @@ TUYA_6_TS0001:
   stock_converter_model: TS0001_switch_module
   override_z2m_device: null
   zb_module: null
-  config_str: hyziup76;TS0001-custom;BA0u;LC0;SB4u;RC2;
+  config_str: hyziup76;TS0001-EMOS;BA0u;LC0;SB4u;RC2;
   alt_config_str: null
   old_manufacturer_names:
   - Tuya-TS0001-custom
@@ -22,3 +22,28 @@ TUYA_6_TS0001:
   github_issue: https://github.com/romasku/tuya-zigbee-switch/issues/
   store: null
 
+
+
+EMOS_TS0002: 
+  human_name: Tuya 2-gang
+  neutral: required
+  device_type: router
+  tuya_model_name: TS0002
+  tuya_manufacturer_name: _TZ3000_wxtmgjbd
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0002_switch_module
+  override_z2m_device: null
+  zb_module: null
+  config_str: wxtmgjbd;TS0002-EMOS;BA0u;LC0;SB4u;RC2;SB5u;RC4;
+  alt_config_str: null
+  old_manufacturer_names:
+  - Tuya-TS0002-custom
+  old_zb_models: null
+  tuya_manufacturer_id: 4417
+  tuya_image_type: 54179
+  firmware_image_type: 43538
+  build: yes
+  status: in_progress
+  info: null
+  github_issue: https://github.com/romasku/tuya-zigbee-switch/issues/
+  store: null
