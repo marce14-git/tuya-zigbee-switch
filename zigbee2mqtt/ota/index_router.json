@@ -1,16 +1,15 @@
 [
   {
-    "fileName": "1141-aa11-01033015-tlc_switch.zigbee",
+    "fileName": "1141-b213-01033015-tlc_switch.zigbee",
     "fileVersion": 16986133,
     "fileSize": 166866,
-    "url": "https://github.com/marce14-git/tuya-zigbee-switch/raw/83773bd0484939e549fbc95bb3d8dd860f104f5b/bin/router/EMOS_TS0001/1141-aa11-01033015-tlc_switch.zigbee",
-    "imageType": 43537,
+    "url": "https://github.com/marce14-git/tuya-zigbee-switch/raw/refs/heads/main/bin/router/EMOS_TS0001/1141-b213-01033015-tlc_switch.zigbee",
+    "imageType": 45587,
     "manufacturerCode": 4417,
-    "sha512": "b41ca768fdc28819934a9592e519079b5a96b12b13c4447f9fd9467e4f4344f7ec0e4e88abb96107fbd444ba6b200f9f0632888b8bfb214525d5364cf27195eb",
+    "sha512": "376c5a5b509a5f42d6c78ecb41f3f57f100fb1c8fd9213e9d9fdd7952c40f00767610e524c4bff43fa108f20692a877b72324de797ad5da220b3e4b35d4f7dbe",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_hyziup76",
-      "Tuya-TS0001-custom",
       "hyziup76"
     ]
   },
@@ -18,14 +17,13 @@
     "fileName": "1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "fileVersion": 4294967295,
     "fileSize": 166866,
-    "url": "https://github.com/marce14-git/tuya-zigbee-switch/raw/83773bd0484939e549fbc95bb3d8dd860f104f5b/bin/router/EMOS_TS0001/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
+    "url": "https://github.com/marce14-git/tuya-zigbee-switch/raw/refs/heads/main/bin/router/EMOS_TS0001/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "imageType": 54179,
     "manufacturerCode": 4417,
-    "sha512": "68702f19226089e20a1f12ce5c2a9ab7ad60757ffb368a60fec60a6e5119333b4f1cb55cfc1ad992e89c3ea84bacceb0deacfa82df309c565c336a56f73a1429",
+    "sha512": "54e99daa8904e6ba220614cac09ccc4b9dba6844a640a6f802cf42787531402712423a38021105e690698465e57ebe91bcfeee165027fb85f46227226a3fc993",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_hyziup76",
-      "Tuya-TS0001-custom",
       "hyziup76"
     ]
   }

@@ -15,5 +15,5 @@ Also read:
 
 | Z2M device name | Vendor name | Zigbee Manufacturer | Type | Status | Issue |
 | --- | --- | --- | --- | --- | --- |
-| [TS0001_switch_module](https://www.zigbee2mqtt.io/devices/TS0001_switch_module.html) | Tuya 1-gang  | _TZ3000_hyziup76 | router | in_progress |   [link](https://github.com/romasku/tuya-zigbee-switch/issues/)  | 
+| [TS0001](https://www.zigbee2mqtt.io/devices/TS0001.html) | GoSmart IP-2101SZ <br> EMOS H5101  | _TZ3000_hyziup76 | router | fully_supported |    -  | 
 
